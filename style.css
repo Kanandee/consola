@@ -2,11 +2,12 @@
   background-color: aqua;
   height: 250px;
   width: 90px;
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1.2em;
+  border-bottom-left-radius: 1.2em;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
 }
 .pantalla {
   width: 350px;
@@ -19,11 +20,12 @@
   width: 90px;
   height: 250px;
   background-color: red;
-  border-top-right-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-evenly;
+  flex-direction: column;
 }
 .switch {
   display: flex;
@@ -87,6 +89,5 @@
   width: 2em;
   background-color: black;
   border-radius: 100%;
-  display: flex;
-  justify-content: flex-end;
 }
+
