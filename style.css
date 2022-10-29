@@ -1,0 +1,81 @@
+.cuerpo {
+  background-color: aqua;
+  height: 250px;
+  width: 90px;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elements {
+  width: 350px;
+  height: 250px;
+  background-color: black;
+  border-radius: 0.5em;
+  display: flex;
+}
+.cuerpo2 {
+  width: 90px;
+  height: 250px;
+  background-color: red;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.switch {
+  display: flex;
+  row-gap: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cruceta {
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  border-radius: 0.1em;
+}
+.cruceta1 {
+  width: 1em;
+  height: 3em;
+  background-color: black;
+  border-radius: 0.1em;
+}
+.cruceta2 {
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  border-radius: 0.1em;
+}
+
+.boton{
+  width: 1.5em;
+  height: 1.5em;
+  background-color: black;
+  border-radius: 5em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#centrobotones{
+  height: 4.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.gif {
+  background-image: url("https://media.giphy.com/media/2YtXbgeiiOEbBC1OCX/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  min-width: 94%;
+  border: solid black 10px;
+}
